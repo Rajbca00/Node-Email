@@ -17,6 +17,8 @@ var mailOptions = {
     to: email,
     subject:'From Node',
     text:'Sending email from Nodemailer'
+    //to Send Html mail - use html property instead of text
+    //html:'<h2>Sample html</h2>
 };
 
 transponder.sendMail(mailOptions,function(err,info){
