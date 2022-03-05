@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemailer": "^6.7.2"
+    "nodemailer": "^6.7.2",
+    "prompt-sync": "^4.2.0"
   }
 }
