@@ -1,4 +1,6 @@
+//Importing Nodemailer module
 var nodemailer = require('nodemailer');
+//Importing prompt module to request inputs
 const prompt = require("prompt-sync")({ sigint: true });
 
 var email = prompt('Please enter your gmail: ');
